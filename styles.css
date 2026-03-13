@@ -1,0 +1,102 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container
+{
+    box-shadow: 6px 4px rgb(190, 163, 90);
+    background-color: rgb(255, 220, 122);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    border: solid 3px rgb(255, 220, 122);
+}
+
+h1
+{
+    padding-bottom: 50px;
+}
+
+.tip
+{
+    font-weight: bold;
+    color: rgb(116, 0, 122);
+}
+
+.input-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.string-input
+{
+    box-shadow: 4px 3px;
+    border: solid 2px black;
+    border-radius: 3px;
+    text-align: center;
+    width: 220px;
+    height: 50px;
+}
+.word-input
+{
+    box-shadow: 4px 3px;
+    border: solid 2px black;
+    border-radius: 3px;
+    text-align: center;
+    width: 220px;
+    height: 50px;
+}
+.new-word-input
+{
+    box-shadow: 4px 3px;
+    border: solid 2px black;
+    border-radius: 3px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+.submit-btn
+{
+    
+    font-size: 15px;
+    border: solid 3px black;
+    border-radius: 5px;
+    box-shadow: 4px 3px;
+    width: 100px;
+    height: 50px;
+}
+.submit-btn:hover
+{
+    background-color: rgb(146, 146, 146);
+}
+
+.output-container
+{
+    text-align: center;
+}
+
+.output-container h2
+{
+    text-align: center;
+    padding: 10px;
+}

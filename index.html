@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Word Changer</title>
+
+</head>
+
+<body>
+
+    <main class="main-container">
+        <h1>Word Changer</h1>
+        <label>
+            <input type="checkbox" class="replace-all-checkbox">
+            Replace All
+        </label>
+        <div class="input-container">
+            <input class="string-input" type="text" placeholder="input a sentence here">
+            <input class="word-input" type="text" placeholder="input the word to be changed here">
+            <input class="new-word-input" type="text" placeholder="input the new word here">
+        </div>
+        <p class="tip">tip: use commas "," to separate the words on the middle input box</p>
+        <button class="submit-btn">Submit</button>
+
+        <div class="output-container" hidden>
+            <h2>Old Sentence: </h2>
+            <p class="old-sentence"></p>
+
+            <h2>New Sentence: </h2>
+            <p class="new-sentence"></p>
+        </div>
+    </main>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
